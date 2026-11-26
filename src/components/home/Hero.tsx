@@ -42,7 +42,7 @@ export function Hero() {
         </div>
 
         {/* Main Brand Title & Tagline */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white mb-6">
+        <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tight text-white mb-6">
           <span className="block text-gradient-electric">Stay. Eat. Celebrate.</span>
           <span className="block text-white/95 mt-1 sm:mt-2">Feel the Magic.</span>
         </h1>

@@ -102,8 +102,8 @@ export function Navbar() {
               </Button>
             </Link>
 
-            {/* Quick Primary Action */}
-            <Link href="/stay">
+            {/* Quick Primary Action (Desktop / Tablet) */}
+            <Link href="/stay" className="hidden sm:inline-flex">
               <Button
                 variant="primary"
                 size="sm"

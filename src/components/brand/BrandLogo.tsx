@@ -60,7 +60,7 @@ export function BrandLogo({
           {variant === "full" && (
             <span
               className={cn(
-                "font-medium tracking-[0.18em] uppercase text-slate-400 group-hover:text-slate-300 transition-colors",
+                "font-medium tracking-[0.18em] uppercase text-slate-400 group-hover:text-slate-300 transition-colors whitespace-nowrap truncate",
                 currentSize.subtitle
               )}
             >

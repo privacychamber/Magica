@@ -11,7 +11,8 @@
 | :---: | :--- | :--- | :---: |
 | **0** | **Project Audit & Architecture** | Environment audit, Next.js 16 verification, GitHub/Vercel audit, complete architecture specs, ADRs, PRD, database schema, and portability design. | **DONE** |
 | **1** | **Brand & Design Foundation** | Design tokens, Midnight/Navy palette, typography hierarchy, responsive navigation, mobile drawer, brand asset slot (`public/brand/`), reusable UI components, and cinematic homepage foundation. | **DONE** |
-| **2** | **Public Experience Pages** | Full detail pages for Stay (rooms/dorms), Eat (menu/categories), Celebrate (event listings/tiers), Explore (treks/transport), Music (KingUrjapati hub), About, Contact, Policies with realistic seed data. | *NEXT PHASE* |
+| **2** | **Public Experience Pages** | Complete customer-facing pages for Stay (rooms/dorms), Eat (menu/categories), Celebrate (event listings/tiers), Explore (treks/transport), Music (KingUrjapati hub), About, Contact, Policies with realistic seed data and reusable primitives. | **DONE** |
+| **3** | **Customer Experience & Bookings** | User auth (guest/token), unified cart & checkout UI, live dine-in table QR context, ticket wallet, booking history view, and provisional hold mock workflows. | *NEXT PHASE* |
 | **3** | **Customer Experience & Bookings** | User auth (guest/token), unified cart & checkout UI, live dine-in table QR context, ticket wallet, booking history view, and provisional hold mock workflows. | *PLANNED* |
 | **4** | **Backend Engine & Database** | PHP 8.3+ / Laravel REST API, MySQL migrations, Sanctum authentication, transactional inventory locking, and API endpoints matching frontend contracts. | *PLANNED* |
 | **5** | **Operational Dashboards** | Role-based portals: Super Admin (revenue, inventory), Reception (check-in/stay), Cafe/Kitchen (KDS), Gatekeeper (QR ticket validator), and Guides. | *PLANNED* |
